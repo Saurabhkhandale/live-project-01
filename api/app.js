@@ -1,6 +1,7 @@
 import express from "express";
 import postRoute from "./routes/post.route.js";
 import authRoute from "./routes/auth.route.js";
+import cookieParser from "cookie-parser";
 // import userRoute from "./routes/user.route.js";
 
 
